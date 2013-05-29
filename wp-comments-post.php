@@ -26,6 +26,8 @@ if ( empty($post->comment_status) ) {
 	exit;
 }
 
+
+My name is tom
 // get_post_status() will get the parent status for attachments.
 $status = get_post_status($post);
 
